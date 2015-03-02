@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+		<title></title>
+
+		<link href="lib/ionic/css/ionic.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+
+		<!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+		<link href="css/ionic.app.css" rel="stylesheet">
+		-->
+
+		<!-- ionic/angularjs js -->
+		<script src="lib/ionic/js/ionic.bundle.js"></script>
+
+		<!-- cordova script (this will be a 404 during development) -->
+		<script src="cordova.js"></script>
+
+		<!-- your app's js -->
+		<script src="js/app.js"></script>
+		<script src="js/controllers.js"></script>
+		<script src="js/services.js"></script>
+		
+
+	</head>
+	<body>
+		<!--
+			The nav bar that will be updated as we navigate between views.
+			
+		
+		-->
+		<div class="bar bar-header bar-stable">
+			<div class="h1 title">Buddy4U</div>
+		</div>
+		
+		<ion-content>
+		<br/><br/><br/><br/>
+		
+		<div class="card">
+		
+			<div class="item item-text-wrap">
+			<br/>
+			Set duration:
+			<br/><br/>
+			<div class="row">
+				<div class="col">
+				<select>
+					<option value="00">00</option>
+					<option value="01">01</option>
+					<option value="02">02</option>
+					<option value="03">03</option>
+<option value="04">04</option>
+				</select>
+				</div>
+				<div class="col">
+				<select>
+					<option value="00">00</option>
+					<option value="01">01</option>
+					<option value="02">02</option>
+					<option value="03">03</option>
+				</select>
+				</div>
+			</div>
+			<br/><br/><br/>
+			</div>
+		
+		</div>
+
+		
+		<div class="row">
+			<div class="col">
+			<button class="button button-block button-dark">
+				Watch over
+			</button>
+			</div>
+			<div class="col">
+			<a class="button button-block button-dark" href="watchme2.html">
+				Watch me
+			</a>
+			</div>
+		</div>
+
+		
+
+		
+		<ion-list>
+
+		
+
+		
+		<script>
+		function myFunction() {
+			
+			
+			if (confirm("Rawan will watch over you"))
+			{
+				window.location='watchme5.html';
+			}
+			
+		}
+		</script>
+		
+
+
+		
+		<div class="bar bar-footer">
+			<div class="tabs tabs-icon-top">
+			<a class="tab-item">
+				<i class="icon ion-person-stalker"></i>
+				Contacts
+			</a>
+				<a class="tab-item">
+					<i class="icon ion-home"></i>
+					Home
+				</a>
+				<a class="tab-item">
+					<i class="icon ion-gear-a"></i>
+					Settings
+				</a>
+			</div>
+		</div>
+
+
+
+
+			</body>
+</html>
