@@ -7,13 +7,11 @@
 	text-decoration: none;
 	text-align:center;
 	
-}
-
-select {
+}select {
 	border: 1px solid #111;
 	background: transparent;
 	width: 100px;
-	padding: 5px;
+	padding: 3px;
 	font-size: 16px;
 	border: 1px solid #ccc;
 	height: 34px;
